@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+
 #clockcontainer{
     position: relative;
     margin: auto;
@@ -41,3 +43,10 @@
     transform-origin: bottom;
     /* display: none; */
 }
+
+#digital{
+    font-family: 'Baloo 2', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
