@@ -1,3 +1,4 @@
+
 setInterval(() => {
         d =new Date();
         htime = d.getHours();
@@ -10,5 +11,5 @@ setInterval(() => {
         hour.style.transform = `rotate(${hrotation}deg)`;
         minute.style.transform = `rotate(${mrotation}deg)`;
         second.style.transform = `rotate(${srotation}deg)`;
-    
+        document.getElementById('digital').innerHTML=htime+":"+mtime+":"+stime;
 }, 1000);
